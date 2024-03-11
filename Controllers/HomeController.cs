@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using ShopKnjiga.Models;
+using ShopKnjiga.Models.Models;
 using System.Diagnostics;
 
 namespace ShopKnjiga.Controllers
@@ -14,11 +14,6 @@ namespace ShopKnjiga.Controllers
         }
 
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
         {
             return View();
         }

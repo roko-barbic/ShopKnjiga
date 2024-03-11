@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ShopKnjiga.Data;
-using ShopKnjiga.Models;
+using ShopKnjiga.DataAccess.Data;
+using ShopKnjiga.Models.Models;
 
 namespace ShopKnjiga.Controllers
 {
